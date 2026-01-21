@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Monitor Control (Qt)
+Comment=Adjust monitor settings using PyQt6
+Exec=monitor-control-qt
+Icon=monitor-control
+Terminal=false
+Categories=Settings;HardwareSettings;

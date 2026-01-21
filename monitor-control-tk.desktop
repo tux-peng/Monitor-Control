@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Monitor Control (Tk)
+Comment=Adjust monitor settings using Tkinter
+Exec=monitor-control-tk
+Icon=monitor-control
+Terminal=false
+Categories=Settings;HardwareSettings;
