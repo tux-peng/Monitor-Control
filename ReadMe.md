@@ -39,12 +39,17 @@ sudo modprobe i2c-dev
 To make this permanent, create `/etc/modules-load.d/i2c.conf` and add `i2c-dev` inside.
 
 Reboot or log out/in for group changes to take effect.
+---
+### Installation
+
+From the [AUR](https://aur.archlinux.org/packages?O=0&SeB=nd&K=monitor-control) or download from the [repo](https://github.com/tux-peng/Monitor-Control).
 
 ---
 
 ### Usage
 
 #### PyQt6 Version (Recommended)
+![Monitor Control](https://github.com/tux-peng/Monitor-Control/blob/main/monitor_control_qt.webp?raw=true)
 
 Offers a modern look and feel with responsive sliders.
 
@@ -53,6 +58,7 @@ python monitor_control_qt.py
 ```
 
 #### Tkinter Version
+![Monitor Control](https://github.com/tux-peng/Monitor-Control/blob/main/monitor_control_tk.webp?raw=true)
 
 A zero-dependency, lightweight alternative.
 
